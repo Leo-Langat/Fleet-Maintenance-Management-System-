@@ -283,7 +283,7 @@ $show_modal = isset($_GET['show_modal']) && $_GET['show_modal'] === 'true';
     <div class="modal" id="changePasswordModal">
         <div class="modal-content">
             <div class="modal-header">
-                <h3>Change Your Password</h3>
+                <h3>Change Password</h3>
             </div>
             <form id="changePasswordForm">
                 <div class="input-group">
