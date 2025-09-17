@@ -3,7 +3,7 @@ session_start();
 require_once 'utils/auto_logger.php';
 
 $autoLogger = new AutoLogger();
-
+//Leo-Langat the great
 // Include the database connection file
 require 'db_connect.php';
 
