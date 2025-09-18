@@ -104,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Password   = '**** **** **** ****'; 
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port       = 587;
-            $mail->setFrom('lionellangat2000@gmail.com', 'Mutai Enterprises Ltd');
+            $mail->setFrom('test@gmail.com', 'Mutai Enterprises Ltd');
             $mail->addAddress($to); 
             $mail->isHTML(true);  
             $mail->Subject = 'Your New Account Password';
